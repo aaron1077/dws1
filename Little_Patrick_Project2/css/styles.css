@@ -1,0 +1,101 @@
+/*********font face********/
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url(http://fonts.gstatic.com/s/yanonekaffeesatz/v7/We_iSDqttE3etzfdfhuPRRX-JRbUdQPdhHf_PancrjIU24FapfJwyacJ6xNu5rm9.woff2)
+    format('woff2');
+}
+/*********body container********/
+body{
+    border: 3px double #000000;
+    padding: 10px 10px;
+    margin: auto auto;
+    background-color: #FFFFFF;
+}
+/*********headings 1,2,3********/
+h1{
+    font-size: 36px;
+    font-family: Yanone Kaffeesatz, sans serif;
+    text-shadow: 0 0 3px #00FF00;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2px;
+    opacity: .8;
+}
+
+h2{
+    font-size: 26px;
+    text-align: left;
+    margin:auto auto;
+}
+
+h3{
+    font-size: 20px;
+    border: 2px solid #00FF00;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #00FF00;
+}
+/*********paragraphs tags********/
+p{
+    font-family: georgia, times, serif;
+    border: 2px solid #000000;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #00FF00;
+
+}
+
+#description{
+    width: auto;
+    text-align: center;
+    border: 2px solid #00FF00;
+    margin: 0px 0px;
+    padding: 1px 1px;
+}
+/*********lists********/
+ol li{
+    list-style-type: lower-roman;
+    text-align: left;
+    padding: 1px 1px;
+
+}
+
+ul{
+    list-style-type: upper-roman;
+}
+/*********links********/
+a:link{
+    text-align: center;
+    font-style: italic;
+
+}
+
+a:visited{
+    color:#000000;
+}
+
+a:hover{
+    color:#00FF00;
+}
+
+a:active{
+    color:#FF0000;
+}
+
+#wiki{
+    text-align: center;
+}
+
+/*********images********/
+a img{
+
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 2px #00FF00;
+    width: auto;
+    height: auto;
+    display: block;
+}
+/*********validator********/
+#validator{
+    align-text:center;
+}
